@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+}
+.img{
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    position: relative;
+    background-attachment: fixed;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    letter-spacing: 8px;
+}
+.border{
+    border-radius: 999px;
+    color: white;
+    padding: 20px;
+    background: black;
+}
+.section{
+    padding: 50px 80px;
+}
+.title{
+    text-align: center;
+    font-size: 2em;
+}
+.content{
+    text-align: center;
+}
+.image1{
+    background-image: url(Image/Bg.jpg);
+    height: 100%;
+}
+.image2{
+    background-image: url(Image/bg2.jpg);
+    height: 70%;
+}
+.sec2{
+    background: #333;
+    color: white;
+}
+.image3{
+    background-image: url(Image/bg3.jpg);
+    height: 70%;
+}
